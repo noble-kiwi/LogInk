@@ -1,0 +1,12 @@
+﻿  Engine.cpp
+D:\Проги\Логисты\Engine.cpp(9,55): warning C4244: аргумент: преобразование "T" в "unsigned int", возможна потеря данных
+D:\Проги\Логисты\Engine.cpp(9,55): warning C4244:         with
+D:\Проги\Логисты\Engine.cpp(9,55): warning C4244:         [
+D:\Проги\Логисты\Engine.cpp(9,55): warning C4244:             T=float
+D:\Проги\Логисты\Engine.cpp(9,55): warning C4244:         ]
+D:\Проги\Логисты\Engine.cpp(9,41): warning C4244: аргумент: преобразование "T" в "unsigned int", возможна потеря данных
+D:\Проги\Логисты\Engine.cpp(9,41): warning C4244:         with
+D:\Проги\Логисты\Engine.cpp(9,41): warning C4244:         [
+D:\Проги\Логисты\Engine.cpp(9,41): warning C4244:             T=float
+D:\Проги\Логисты\Engine.cpp(9,41): warning C4244:         ]
+  Логисты.vcxproj -> D:\Проги\Логисты\x64\Debug\Логисты.exe
