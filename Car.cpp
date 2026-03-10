@@ -1,6 +1,6 @@
 #include "Car.h"
 
-//Реализация класса автомобиля
+//ГђГҐГ Г«ГЁГ§Г Г¶ГЁГї ГЄГ«Г Г±Г±Г  Г ГўГІГ®Г¬Г®ГЎГЁГ«Гї
 Car::Car() {
 	m_Speed = 400;
 
@@ -33,15 +33,16 @@ void Car::update(float elapsedTime)
 {
 	if (m_UpPressed)
 	{
-		m_Position.y += m_Speed * elapsedTime;
+		m_Position.y -= m_Speed * elapsedTime;
 	}
 
 	if (m_DownPressed)
 	{
-		m_Position.y -= m_Speed * elapsedTime;
+		m_Position.y += m_Speed * elapsedTime;
 	}
 
-	// Теперь сдвигаем спрайт на новую позицию
+	// Г’ГҐГЇГҐГ°Гј Г±Г¤ГўГЁГЈГ ГҐГ¬ Г±ГЇГ°Г Г©ГІ Г­Г  Г­Г®ГўГіГѕ ГЇГ®Г§ГЁГ¶ГЁГѕ
 	m_Sprite.setPosition(m_Position);
+
 
 }
