@@ -2,8 +2,12 @@
 #include "TextureHolder.h"
 #include "Engine.h"
 
+/**
+ * @brief Program entry point.
+ *        Initializes the texture holder and starts the game engine.
+ */
 int main() {
-    // Initialize texture holder (must be done before any texture requests)
+    // Must be created before any texture requests
     TextureHolder texHolder;
 
     Engine engine;
